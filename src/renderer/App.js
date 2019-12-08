@@ -10,14 +10,18 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Running Electron App!
+        </p>
+        <button onClick={() => {
+          console.log("debug 1")
+          const num1 = 1
+          const num2 = 2
+          const sum = num1 + num2
+          console.log(sum)
+          console.log("debug 2")
+        }}>debug test
+        </button>
       </header>
     </div>
   )
